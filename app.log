@@ -1,0 +1,258 @@
+2026-01-11 13:07:26,027 - INFO - Application started
+2026-01-11 13:07:26,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 13:07:26,084 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 13:07:26,086 - INFO -  * Restarting with stat
+2026-01-11 13:07:27,024 - INFO - Application started
+2026-01-11 13:07:27,048 - WARNING -  * Debugger is active!
+2026-01-11 13:07:27,055 - INFO -  * Debugger PIN: 997-528-716
+2026-01-11 13:08:37,589 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:08:37,612 - INFO - 127.0.0.1 - - [11/Jan/2026 13:08:37] "GET / HTTP/1.1" 200 -
+2026-01-11 13:08:37,762 - INFO - 127.0.0.1 - - [11/Jan/2026 13:08:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-11 13:08:41,230 - INFO - 127.0.0.1 - - [11/Jan/2026 13:08:41] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:09:18,564 - INFO - Login attempt - Username: user1 - IP: 127.0.0.1
+2026-01-11 13:09:18,565 - INFO - Login successful - Username: user1
+2026-01-11 13:09:18,567 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:09:18,572 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:09:18,580 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:18] "GET / HTTP/1.1" 200 -
+2026-01-11 13:09:24,287 - INFO - Data page accessed - User: user1
+2026-01-11 13:09:24,294 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:24] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:09:27,431 - INFO - Data detail accessed - ID: 1 - User: user1
+2026-01-11 13:09:27,434 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:27] "GET /data/detail/MQ.aWM-lA.W99niOMidXMwnWT9ZI44yZyScAM HTTP/1.1" 200 -
+2026-01-11 13:09:30,232 - INFO - Data page accessed - User: user1
+2026-01-11 13:09:30,238 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:30] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:09:33,177 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:09:33,186 - INFO - 127.0.0.1 - - [11/Jan/2026 13:09:33] "GET / HTTP/1.1" 200 -
+2026-01-11 13:11:26,224 - INFO - User logged out - Username: user1
+2026-01-11 13:11:26,225 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:11:26,232 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:11:26,240 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:26] "GET / HTTP/1.1" 200 -
+2026-01-11 13:11:35,437 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:35] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:11:40,091 - INFO - Login attempt - Username: admin - IP: 127.0.0.1
+2026-01-11 13:11:40,091 - INFO - Login successful - Username: admin
+2026-01-11 13:11:40,091 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:11:40,100 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:11:40,107 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:40] "GET / HTTP/1.1" 200 -
+2026-01-11 13:11:44,870 - INFO - Data page accessed - User: admin
+2026-01-11 13:11:44,876 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:44] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:11:46,457 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:11:46,460 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:46] "GET /data/detail/MQ.aWM_IA.6utWzSk_GlBlxoOWhF8vkAxgh2E HTTP/1.1" 200 -
+2026-01-11 13:11:50,338 - INFO - Data page accessed - User: admin
+2026-01-11 13:11:50,343 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:50] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:11:51,605 - INFO - Data detail accessed - ID: 2 - User: admin
+2026-01-11 13:11:51,609 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:51] "GET /data/detail/Mg.aWM_Jg.lrf5uL2vggDh7jnsuEovPTdapVI HTTP/1.1" 200 -
+2026-01-11 13:11:52,888 - INFO - Data page accessed - User: admin
+2026-01-11 13:11:52,895 - INFO - 127.0.0.1 - - [11/Jan/2026 13:11:52] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:12:09,844 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:12:09,852 - INFO - 127.0.0.1 - - [11/Jan/2026 13:12:09] "GET / HTTP/1.1" 200 -
+2026-01-11 13:12:13,514 - INFO - Data page accessed - User: admin
+2026-01-11 13:12:13,521 - INFO - 127.0.0.1 - - [11/Jan/2026 13:12:13] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:12:16,194 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:12:16,197 - INFO - 127.0.0.1 - - [11/Jan/2026 13:12:16] "GET /data/detail/MQ.aWM_PQ.YfzATB68hknQlY19PybOLMr7S14 HTTP/1.1" 200 -
+2026-01-11 13:12:25,047 - INFO - Data page accessed - User: admin
+2026-01-11 13:12:25,052 - INFO - 127.0.0.1 - - [11/Jan/2026 13:12:25] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:12:27,728 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:12:27,738 - INFO - 127.0.0.1 - - [11/Jan/2026 13:12:27] "GET / HTTP/1.1" 200 -
+2026-01-11 13:17:14,815 - INFO - Data page accessed - User: admin
+2026-01-11 13:17:14,821 - INFO - 127.0.0.1 - - [11/Jan/2026 13:17:14] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:17:32,663 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:17:32,666 - INFO - 127.0.0.1 - - [11/Jan/2026 13:17:32] "GET /data/detail/MQ.aWNAag.6g15PZuPMdqGTTGPH-wc6XUd4fk HTTP/1.1" 200 -
+2026-01-11 13:17:44,358 - INFO - Data page accessed - User: admin
+2026-01-11 13:17:44,365 - INFO - 127.0.0.1 - - [11/Jan/2026 13:17:44] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:19:37,766 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:19:37,769 - INFO - 127.0.0.1 - - [11/Jan/2026 13:19:37] "GET /data/detail/MQ.aWNAiA.hLjWCfkVa9pjLIl2IPmxg0BIkjw HTTP/1.1" 200 -
+2026-01-11 13:19:39,235 - INFO - Data page accessed - User: admin
+2026-01-11 13:19:39,241 - INFO - 127.0.0.1 - - [11/Jan/2026 13:19:39] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:19:43,937 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:19:43,945 - INFO - 127.0.0.1 - - [11/Jan/2026 13:19:43] "GET / HTTP/1.1" 200 -
+2026-01-11 13:19:46,733 - INFO - User logged out - Username: admin
+2026-01-11 13:19:46,734 - INFO - 127.0.0.1 - - [11/Jan/2026 13:19:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:19:46,741 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:19:46,748 - INFO - 127.0.0.1 - - [11/Jan/2026 13:19:46] "GET / HTTP/1.1" 200 -
+2026-01-11 13:20:30,886 - INFO - 127.0.0.1 - - [11/Jan/2026 13:20:30] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:20:38,976 - INFO - Login attempt - Username: admin - IP: 127.0.0.1
+2026-01-11 13:20:38,976 - INFO - Login successful - Username: admin
+2026-01-11 13:20:38,977 - INFO - 127.0.0.1 - - [11/Jan/2026 13:20:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:20:38,986 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:20:38,994 - INFO - 127.0.0.1 - - [11/Jan/2026 13:20:38] "GET / HTTP/1.1" 200 -
+2026-01-11 13:20:43,309 - INFO - Data page accessed - User: admin
+2026-01-11 13:20:43,315 - INFO - 127.0.0.1 - - [11/Jan/2026 13:20:43] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:20:46,091 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:20:46,095 - INFO - 127.0.0.1 - - [11/Jan/2026 13:20:46] "GET /data/detail/MQ.aWNBOw.2TpT9bYAJb1y55w7U38c-AJJ5-E HTTP/1.1" 200 -
+2026-01-11 13:21:41,162 - INFO - Data page accessed - User: admin
+2026-01-11 13:21:41,168 - INFO - 127.0.0.1 - - [11/Jan/2026 13:21:41] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:21:43,700 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:21:43,708 - INFO - 127.0.0.1 - - [11/Jan/2026 13:21:43] "GET / HTTP/1.1" 200 -
+2026-01-11 13:21:49,719 - INFO - User logged out - Username: admin
+2026-01-11 13:21:49,720 - INFO - 127.0.0.1 - - [11/Jan/2026 13:21:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:21:49,729 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:21:49,737 - INFO - 127.0.0.1 - - [11/Jan/2026 13:21:49] "GET / HTTP/1.1" 200 -
+2026-01-11 13:22:01,670 - INFO - 127.0.0.1 - - [11/Jan/2026 13:22:01] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:22:12,765 - INFO - Login attempt - Username: user1 - IP: 127.0.0.1
+2026-01-11 13:22:12,765 - INFO - Login successful - Username: user1
+2026-01-11 13:22:12,767 - INFO - 127.0.0.1 - - [11/Jan/2026 13:22:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:22:12,773 - INFO - Home page accessed - IP: 127.0.0.1
+2026-01-11 13:22:12,781 - INFO - 127.0.0.1 - - [11/Jan/2026 13:22:12] "GET / HTTP/1.1" 200 -
+2026-01-11 13:22:18,979 - INFO - Data page accessed - User: user1
+2026-01-11 13:22:18,986 - INFO - 127.0.0.1 - - [11/Jan/2026 13:22:18] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:33:40,439 - INFO - ============================================================
+2026-01-11 13:33:40,440 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:33:40,440 - INFO - ============================================================
+2026-01-11 13:33:40,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 13:33:40,470 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 13:33:40,473 - INFO -  * Restarting with stat
+2026-01-11 13:33:41,388 - INFO - ============================================================
+2026-01-11 13:33:41,388 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:33:41,388 - INFO - ============================================================
+2026-01-11 13:33:41,410 - WARNING -  * Debugger is active!
+2026-01-11 13:33:41,413 - INFO -  * Debugger PIN: 997-528-716
+2026-01-11 13:33:51,566 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:33:51,599 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 13:33:51,692 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-11 13:33:51,712 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-11 13:33:51,729 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:51] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=PznCOzuxKyfM7KuLZcgU HTTP/1.1" 200 -
+2026-01-11 13:33:51,813 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-01-11 13:33:53,655 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:33:53,681 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 13:33:53,702 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 13:33:53,704 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 13:33:53,715 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PznCOzuxKyfM7KuLZcgU HTTP/1.1[0m" 304 -
+2026-01-11 13:33:53,759 - INFO - 127.0.0.1 - - [11/Jan/2026 13:33:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 13:34:12,957 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:34:12,994 - INFO - 127.0.0.1 - - [11/Jan/2026 13:34:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 13:34:13,039 - INFO - 127.0.0.1 - - [11/Jan/2026 13:34:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 13:34:13,055 - INFO - 127.0.0.1 - - [11/Jan/2026 13:34:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 13:34:13,070 - INFO - 127.0.0.1 - - [11/Jan/2026 13:34:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PznCOzuxKyfM7KuLZcgU HTTP/1.1[0m" 304 -
+2026-01-11 13:40:09,967 - INFO - ============================================================
+2026-01-11 13:40:09,968 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:40:09,968 - INFO - ============================================================
+2026-01-11 13:40:09,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 13:40:09,994 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 13:40:09,997 - INFO -  * Restarting with stat
+2026-01-11 13:40:10,907 - INFO - ============================================================
+2026-01-11 13:40:10,908 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:40:10,908 - INFO - ============================================================
+2026-01-11 13:40:10,929 - WARNING -  * Debugger is active!
+2026-01-11 13:40:10,934 - INFO -  * Debugger PIN: 997-528-716
+2026-01-11 13:40:27,293 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:40:27,317 - INFO - 127.0.0.1 - - [11/Jan/2026 13:40:27] "GET / HTTP/1.1" 200 -
+2026-01-11 13:40:38,476 - INFO - Data page accessed - User: user1
+2026-01-11 13:40:38,486 - INFO - 127.0.0.1 - - [11/Jan/2026 13:40:38] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:40:41,897 - INFO - User logged out - Username: user1
+2026-01-11 13:40:41,898 - INFO - 127.0.0.1 - - [11/Jan/2026 13:40:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:40:41,905 - INFO - Dashboard accessed - IP: 127.0.0.1 - Guest
+2026-01-11 13:40:41,919 - INFO - 127.0.0.1 - - [11/Jan/2026 13:40:41] "GET / HTTP/1.1" 200 -
+2026-01-11 13:40:43,892 - INFO - 127.0.0.1 - - [11/Jan/2026 13:40:43] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:41:02,429 - INFO - Login attempt - Username: admin - IP: 127.0.0.1
+2026-01-11 13:41:02,429 - INFO - Login successful - Username: admin
+2026-01-11 13:41:02,430 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:41:02,435 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:41:02,451 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:02] "GET / HTTP/1.1" 200 -
+2026-01-11 13:41:05,841 - INFO - Log viewer accessed - User: admin
+2026-01-11 13:41:05,869 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:05] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:41:21,682 - INFO - Data page accessed - User: admin
+2026-01-11 13:41:21,690 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:21] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:41:23,235 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:41:23,242 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:23] "GET /data/detail/MQ.aWNGEQ.s11EQ6c7nZWI4YurkBskXAKngH4 HTTP/1.1" 200 -
+2026-01-11 13:41:26,690 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:41:26,707 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:26] "GET / HTTP/1.1" 200 -
+2026-01-11 13:41:31,087 - INFO - User logged out - Username: admin
+2026-01-11 13:41:31,089 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:41:31,095 - INFO - Dashboard accessed - IP: 127.0.0.1 - Guest
+2026-01-11 13:41:31,115 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:31] "GET / HTTP/1.1" 200 -
+2026-01-11 13:41:33,858 - INFO - 127.0.0.1 - - [11/Jan/2026 13:41:33] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:42:10,888 - INFO - Login attempt - Username: user1 - IP: 127.0.0.1
+2026-01-11 13:42:10,889 - INFO - Login successful - Username: user1
+2026-01-11 13:42:10,889 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:42:10,898 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:42:10,913 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:10] "GET / HTTP/1.1" 200 -
+2026-01-11 13:42:15,068 - INFO - Log viewer accessed - User: user1
+2026-01-11 13:42:15,097 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:15] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:42:16,616 - INFO - Data page accessed - User: user1
+2026-01-11 13:42:16,628 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:16] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:42:18,711 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:42:18,729 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:18] "GET / HTTP/1.1" 200 -
+2026-01-11 13:42:23,539 - INFO - Log viewer accessed - User: user1
+2026-01-11 13:42:23,562 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:23] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:42:34,555 - INFO - Data page accessed - User: user1
+2026-01-11 13:42:34,563 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:34] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:42:36,878 - INFO - Data detail accessed - ID: 1 - User: user1
+2026-01-11 13:42:36,884 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:36] "GET /data/detail/MQ.aWNGWg.cURAl2ZiNILriepAwOZ8UqqKV20 HTTP/1.1" 200 -
+2026-01-11 13:42:38,652 - INFO - Data page accessed - User: user1
+2026-01-11 13:42:38,662 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:38] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:42:43,811 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:42:43,826 - INFO - 127.0.0.1 - - [11/Jan/2026 13:42:43] "GET / HTTP/1.1" 200 -
+2026-01-11 13:45:49,094 - INFO - ============================================================
+2026-01-11 13:45:49,095 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:45:49,095 - INFO - ============================================================
+2026-01-11 13:45:49,123 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 13:45:49,124 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 13:45:49,126 - INFO -  * Restarting with stat
+2026-01-11 13:45:50,054 - INFO - ============================================================
+2026-01-11 13:45:50,054 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:45:50,054 - INFO - ============================================================
+2026-01-11 13:45:50,075 - WARNING -  * Debugger is active!
+2026-01-11 13:45:50,079 - INFO -  * Debugger PIN: 997-528-716
+2026-01-11 13:46:00,914 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 13:46:00,943 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:00] "GET / HTTP/1.1" 200 -
+2026-01-11 13:46:23,903 - INFO - User logged out - Username: user1
+2026-01-11 13:46:23,904 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:46:23,913 - INFO - Dashboard accessed - IP: 127.0.0.1 - Guest
+2026-01-11 13:46:23,931 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:23] "GET / HTTP/1.1" 200 -
+2026-01-11 13:46:26,034 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:26] "GET /login HTTP/1.1" 200 -
+2026-01-11 13:46:35,918 - INFO - Login attempt - Username: admin - IP: 127.0.0.1
+2026-01-11 13:46:35,918 - INFO - Login successful - Username: admin
+2026-01-11 13:46:35,919 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 13:46:35,923 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:46:35,941 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:35] "GET / HTTP/1.1" 200 -
+2026-01-11 13:46:40,109 - INFO - Data page accessed - User: admin
+2026-01-11 13:46:40,120 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:40] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:46:42,630 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:46:42,640 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:42] "GET /data/detail/MQ.aWNHUA.kbKAhoWcJAcvHc9NoY5e6xvKdfw HTTP/1.1" 200 -
+2026-01-11 13:46:45,075 - INFO - Log viewer accessed - User: admin
+2026-01-11 13:46:45,102 - INFO - 127.0.0.1 - - [11/Jan/2026 13:46:45] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:47:10,804 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:47:10,822 - INFO - 127.0.0.1 - - [11/Jan/2026 13:47:10] "GET / HTTP/1.1" 200 -
+2026-01-11 13:54:26,952 - INFO - Log viewer accessed - User: admin
+2026-01-11 13:54:26,984 - INFO - 127.0.0.1 - - [11/Jan/2026 13:54:26] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:54:56,053 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:54:56,073 - INFO - 127.0.0.1 - - [11/Jan/2026 13:54:56] "GET / HTTP/1.1" 200 -
+2026-01-11 13:59:14,954 - INFO - ============================================================
+2026-01-11 13:59:14,954 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:59:14,955 - INFO - ============================================================
+2026-01-11 13:59:14,980 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 13:59:14,980 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 13:59:14,982 - INFO -  * Restarting with stat
+2026-01-11 13:59:15,902 - INFO - ============================================================
+2026-01-11 13:59:15,902 - INFO - CCTV SIDOARJO - SECURE SYSTEM STARTED
+2026-01-11 13:59:15,902 - INFO - ============================================================
+2026-01-11 13:59:15,924 - WARNING -  * Debugger is active!
+2026-01-11 13:59:15,929 - INFO -  * Debugger PIN: 997-528-716
+2026-01-11 13:59:22,800 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:59:22,825 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:22] "GET / HTTP/1.1" 200 -
+2026-01-11 13:59:29,061 - INFO - Data page accessed - User: admin
+2026-01-11 13:59:29,073 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:29] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:59:31,062 - INFO - Log viewer accessed - User: admin
+2026-01-11 13:59:31,090 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:31] "GET /logs HTTP/1.1" 200 -
+2026-01-11 13:59:34,548 - INFO - Data page accessed - User: admin
+2026-01-11 13:59:34,560 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:34] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:59:39,695 - INFO - Data detail accessed - ID: 1 - User: admin
+2026-01-11 13:59:39,704 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:39] "GET /data/detail/MQ.aWNKVg.iHBErx1t3DS-X9vcTAtgee2mLWI HTTP/1.1" 200 -
+2026-01-11 13:59:43,814 - INFO - Data page accessed - User: admin
+2026-01-11 13:59:43,828 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:43] "GET /data HTTP/1.1" 200 -
+2026-01-11 13:59:46,066 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: admin
+2026-01-11 13:59:46,087 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:46] "GET / HTTP/1.1" 200 -
+2026-01-11 13:59:47,556 - INFO - User logged out - Username: admin
+2026-01-11 13:59:47,557 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 13:59:47,565 - INFO - Dashboard accessed - IP: 127.0.0.1 - Guest
+2026-01-11 13:59:47,582 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:47] "GET / HTTP/1.1" 200 -
+2026-01-11 13:59:49,568 - INFO - 127.0.0.1 - - [11/Jan/2026 13:59:49] "GET /login HTTP/1.1" 200 -
+2026-01-11 14:00:01,313 - INFO - Login attempt - Username: user1 - IP: 127.0.0.1
+2026-01-11 14:00:01,313 - INFO - Login successful - Username: user1
+2026-01-11 14:00:01,314 - INFO - 127.0.0.1 - - [11/Jan/2026 14:00:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 14:00:01,320 - INFO - Dashboard accessed - IP: 127.0.0.1 - User: user1
+2026-01-11 14:00:01,340 - INFO - 127.0.0.1 - - [11/Jan/2026 14:00:01] "GET / HTTP/1.1" 200 -
